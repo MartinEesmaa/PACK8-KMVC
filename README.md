@@ -1,7 +1,7 @@
 # PACK8-KMVC
 A closed source MS-DOS executable of Karl Morton's Video Codec encoder.
 
-Command line help usage:
+Command line help usage of PACK8:
 
 ```
               FullMotionVideo compression/decompression
@@ -45,6 +45,18 @@ or...
 or...
 
   old <snd-dump> <avi-name>
+```
+
+Command line help usage of AUDIO (after PACK8):
+
+```
+Usage: audio <options> <audiofile> <moviefile>
+
+options:
+  -offset <n>        : specifies offset into sample data
+  -volume <n>        : specifies volume adjustment (0..1)
+  -fadeup <n>        : specifies fade up frame count
+  -fadedn <n>        : specifies fade down frame count
 ```
 
 The executable binary was compiled by Karl Morton and AVI files were used at Worms game for cutscenes from Team17.
