@@ -47,6 +47,16 @@ or...
   old <snd-dump> <avi-name>
 ```
 
+### Limitations of PACK8:
+
+* The `/size` of output video can only be maximum about 320 of width and 200 of height.
+
+* Frame per second of `/frate` can be only ranged from 5 FPS to 60 FPS, even accepts float numbers.
+
+* Audio sample rate of `/srate` can be only ranged from 5000 to 44000 Hz.
+
+* Bitrate per second of `/drate` can be ranged from 61 to 10308 kb/s.
+
 Command line help usage of AUDIO (after PACK8):
 
 ```
